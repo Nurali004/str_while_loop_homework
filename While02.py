@@ -1,9 +1,14 @@
-def main(s):
-    """
-    A variable of type str is given. Find how many letters it contains and return.
-    Args:
-        s: str
-    Returns:
-        int: return answer
-    """
-    return
+s="987654"
+yigindi=0
+i=0
+l=len(s)
+while i<l:
+    yigindi+=int(s[i])
+    i+=1
+
+
+    
+    
+    
+print("yigindi:", yigindi)
+  
