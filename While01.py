@@ -1,9 +1,14 @@
-def main(s):
-    """
-    A variable of type str is given. Find how many digits it contains and return.
-    Args:
-        s: str
-    Returns:
-        int: return answer
-    """
-    return
+
+yigindi=0
+
+while True:
+    a=int(input("sonni kiriting:"))
+    if a>0:
+        yigindi +=a
+    else:
+        break
+        
+     
+
+
+print("yigindi:", yigindi)
