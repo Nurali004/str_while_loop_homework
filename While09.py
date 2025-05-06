@@ -6,4 +6,14 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    yigindi=0
+    i=0
+    while i<len(s):
+        if s[i].isdigit():
+            yigindi+=int(s[i])
+
+        i+=1
+    return yigindi
+
+s="1234fhjfjf"
+print(main(s))
